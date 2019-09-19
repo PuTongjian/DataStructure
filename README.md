@@ -28,6 +28,8 @@
 **缺点：**
 - **索引访问慢**，**时间复杂度为O(n)**
 
+---
+
 ### [单向链表]()
 ![链表.png](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Singly-linked-list.svg/408px-Singly-linked-list.svg.png)  
 链表中最简单的一种是**单向链表**，它包含两个域，一个信息域和一个指针域。这个链接指向列表中的下一个节点，而最后一个节点则指向一个空值。
