@@ -18,6 +18,8 @@
 
 注意：当**有序线性表**查找的**时间复杂度为O(1)** 时，折中查找的**时间复杂度为O(logN)**。
 
+---
+
 ## 链表(Linked list)
 链表是一种**链式存储结构**，它是一种**线性表**，但是并不会按线性的顺序存储数据，而是在每一个节点里存到下一个节点的指针(Pointer)，将一些不连续的内存空间串连起来。  
 
@@ -28,13 +30,17 @@
 **缺点：**
 - **索引访问慢**，**时间复杂度为O(n)**
 
----
-
-### [单向链表]()
+### [单向链表](https://github.com/PuTongjian/DataStructure-Algorithm/blob/master/data_structure/linked_list.py)
 ![链表.png](https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Singly-linked-list.svg/408px-Singly-linked-list.svg.png)  
 链表中最简单的一种是**单向链表**，它包含两个域，一个信息域和一个指针域。这个链接指向列表中的下一个节点，而最后一个节点则指向一个空值。
 
-### 
+### [双向链表]()
+![双向链表.png](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Doubly-linked-list.svg/610px-Doubly-linked-list.svg.png)  
+在单向链表的基础上，每个节点有两个两个指针，一个指向前驱节点，另一个指向后驱节点。
+
+### [循环链表]()
+![循环链表.png](https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Circularly-linked-list.svg/350px-Circularly-linked-list.svg.png)  
+普通链表的尾节点后继指针指向`None`，而循环链表的尾节点后继指针指向头节点
 
 ## 栈
 
