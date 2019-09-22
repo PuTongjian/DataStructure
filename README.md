@@ -42,8 +42,9 @@
 ![循环链表.png](https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Circularly-linked-list.svg/350px-Circularly-linked-list.svg.png)  
 普通链表的尾节点后继指针指向`None`，而循环链表的尾节点后继指针指向头节点
 
-## 栈
-
+## 栈（LIFO, Last In First Out）
+堆栈（stack）又称为栈或堆叠，是一种抽象数据类型，只允许在有序的线性数据集合的一端（堆栈顶端, top）进行加入数据（push）和移除数据（pop）的运算。因而按照后进先出（LIFO, Last In First Out）的原理运作。  
+![栈.jpg](http://chuantu.xyz/t6/702/1569165698x2073513213.jpg)
 ## 队列
 
 ## 优先队列
