@@ -7,3 +7,21 @@
 # 指向的结点正是链表的倒数第n个结点。
 #
 # 时间复杂度O(n)，空间复杂度O(1)
+
+# 定义单链表结构
+class ListNode:
+    def __init__(self, x):
+        self.val = x
+        self.next = None
+
+
+def solution(head: ListNode, n: int) -> ListNode:
+    p_node = p_temp = head
+    move_count = 0
+
+    while p_temp:
+        p_temp = p_temp.next
+        p_node = p_node.next if move_count >= n else p_node
+        move_count += 1
+
+    return p_node
