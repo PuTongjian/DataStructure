@@ -42,6 +42,11 @@
 ![循环链表.png](https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Circularly-linked-list.svg/350px-Circularly-linked-list.svg.png)  
 普通链表的尾节点后继指针指向`None`，而循环链表的尾节点后继指针指向头节点
 
+### 相关算法
+- [寻找链表中的倒数第n个结点](https://github.com/PuTongjian/DataStructure-Algorithm/blob/master/algo/linked_list/algo1.py)。  
+解决思路：建立p_node和p_temp两个指针，并令他们都指向头链表头部。等p_temp移动了n次以后，再开始移动p_node。接下来，同时移动这两个指针，直到p_tmep越过链表末尾为止。此时p_node所指向的结点正是链表的倒数第n个结点。
+- [判断链表中]
+
 ---
 
 ## 栈（LIFO, Last In First Out）
