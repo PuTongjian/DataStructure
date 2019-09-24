@@ -15,7 +15,7 @@ class ListNode:
         self.next = None
 
 
-def solution(head: ListNode) -> bool:
+def solution(head: ListNode) -> bool or ListNode:
     if not head or not head.next:
         return False
 
@@ -26,6 +26,12 @@ def solution(head: ListNode) -> bool:
         p_slow = p_slow.next
         p_fast = p_fast.next.next
         if p_fast is p_slow:
-            return True
+            # 存在环,则寻找环入口
+            p_fast = head
+            while p_fast is not p_slow:
+                p_slow = p_slow.next
+                p_fast = p_fast.next
+
+            return p_slow
 
     return False
