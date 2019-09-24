@@ -16,7 +16,8 @@ class ListNode:
 
 
 def solution(head: ListNode, n: int) -> ListNode:
-    p_node = p_temp = head
+    p_node = head
+    p_temp = head
     move_count = 0
 
     while p_temp:
