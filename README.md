@@ -43,9 +43,16 @@
 普通链表的尾节点后继指针指向`None`，而循环链表的尾节点后继指针指向头节点
 
 ### 相关算法
-- [寻找链表中的倒数第n个结点](https://github.com/PuTongjian/DataStructure-Algorithm/blob/master/algo/linked_list/algo1.py)。  
-解决思路：建立p_node和p_temp两个指针，并令他们都指向头链表头部。等p_temp移动了n次以后，再开始移动p_node。接下来，同时移动这两个指针，直到p_tmep越过链表末尾为止。此时p_node所指向的结点正是链表的倒数第n个结点。
-- [判断链表中]
+- [寻找链表中的倒数第n个结点。](https://github.com/PuTongjian/DataStructure-Algorithm/blob/master/algo/linked_list/algo1.py)  
+**解决思路**：建立p_node和p_temp两个指针，并令他们都指向头链表头部。等p_temp移动了n次以后，再开始移动p_node。接下来，同时移动这两个指针，直到p_tmep越过链表末尾为止。此时p_node所指向的结点正是链表的倒数第n个结点。  
+**算法复杂度**：时间复杂度O(n)，空间复杂度O(1)。
+
+- [判断链表中是否包含环？找出环的入口结点。](https://github.com/PuTongjian/DataStructure-Algorithm/blob/master/algo/linked_list/algo2.py)  
+**解决思路**：问题1——弗洛伊德循环查找算法。用两个速度不相同的指针来遍历链表。只要二者相遇，就说明链表中有循环。问题2——在解决问题1的基础上，令其中一个指针指向链表的头结点，并且令两个指针都继续移动，只不过每次只走一个结点而已。两者再度相遇之处，就是循环的入口结点。（图伦方面的知识）  
+**算法复杂度**：时间复杂度O(n)，空间复杂度O(1)。
+
+- [反转单链表。](https://github.com/PuTongjian/DataStructure-Algorithm/blob/master/algo/linked_list/algo3.py)
+**算法复杂度**：时间复杂度O(n)，空间复杂度O(1)。
 
 ---
 
