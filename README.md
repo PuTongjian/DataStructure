@@ -66,7 +66,7 @@
 ---
 
 ## 队列（queue）
-队列，是**先进先出（FIFO, First-In-First-Out）的线性表**。在具体应用中通常用链表或者数组来实现。队列只允许在后端（rear）进行插入操作，在前端（front）进行删除操作。 
+队列，是**先进先出（FIFO, First-In-First-Out）的线性表**。在具体应用中通常用链表或者数组来实现。队列只允许在后端（rear）进行插入操作，在前端（front）进行删除操作。  
 ![队列.jpg](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1569315841239&di=4e0260dad33873aeff13ac69dddcad0f&imgtype=0&src=http%3A%2F%2Ffile.koolearn.com%2F20141012%2F14130787585637.jpg)
 
 ---
