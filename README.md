@@ -62,6 +62,7 @@
 
 ### 相关算法
 - [逆波兰表达式求值](https://github.com/PuTongjian/DataStructure-Algorithm/blob/master/algo/stack/RPN.py)
+- [后序遍历二叉树](https://github.com/PuTongjian/DataStructure-Algorithm/tree/master/algo/stack)
 
 ---
 
