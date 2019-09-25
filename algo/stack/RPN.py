@@ -8,7 +8,7 @@
 #
 # 时间复杂度O(n)，空间复杂度O(1)
 
-def evalRPN(tokens: list) -> int:
+def eval_RPN(tokens: list) -> int:
     opera = ['+', '-', '*', '/']
     stack = []
 
