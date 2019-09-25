@@ -57,8 +57,11 @@
 ---
 
 ## 栈（LIFO, Last In First Out）
-堆栈（stack）又称为栈或堆叠，是一种抽象数据类型，只允许在有序的线性数据集合的一端（堆栈顶端, top）进行加入数据（push）和移除数据（pop）的运算。因而按照后进先出（LIFO, Last In First Out）的原理运作。  
+堆栈（stack）又称为栈或堆叠，是一种抽象数据类型，只允许在有序的线性数据集合的一端（堆栈顶端, top）进行加入数据（push）和移除数据（pop）的运算。因而按照**后进先出**（LIFO, Last In First Out）的原理运作。  
 ![栈.jpg](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1569309160255&di=624ef4d95ef9fc4236ba9ff26486de96&imgtype=0&src=http%3A%2F%2Fimg2018.cnblogs.com%2Fblog%2F1782005%2F201908%2F1782005-20190830125740215-836966875.jpg)
+
+### 相关算法
+- [逆波兰表达式求值](https://github.com/PuTongjian/DataStructure-Algorithm/blob/master/algo/stack/RPN.py)
 
 ---
 
