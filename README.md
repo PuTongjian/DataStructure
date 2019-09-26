@@ -62,7 +62,9 @@
 
 ### 相关算法
 - [逆波兰表达式求值](https://github.com/PuTongjian/DataStructure-Algorithm/blob/master/algo/stack/RPN.py)
-- [后序遍历二叉树](https://github.com/PuTongjian/DataStructure-Algorithm/tree/master/algo/stack)
+- [后序遍历二叉树](https://github.com/PuTongjian/DataStructure-Algorithm/blob/master/algo/stack/postorder_traversal.py)
+- [前序遍历二叉树](https://github.com/PuTongjian/DataStructure-Algorithm/blob/master/algo/stack/preorder_traversal.py)
+- [中序遍历二叉树](https://github.com/PuTongjian/DataStructure-Algorithm/blob/master/algo/stack/inorder_traversal.py)
 
 ---
 
