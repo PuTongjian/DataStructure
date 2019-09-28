@@ -18,6 +18,9 @@
 
 注意：当**有序线性表**查找的**时间复杂度为O(1)** 时，折中查找的**时间复杂度为O(logN)**。
 
+## 相关算法
+- [二分查找法](https://github.com/PuTongjian/DataStructure-Algorithm/blob/master/algo/array/binary_search.py)
+
 ---
 
 ## 链表(Linked list)
