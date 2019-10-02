@@ -25,5 +25,5 @@ def quick_sort(nums: list, left: int, right: int):
     if left < right:
         pivot = partition(nums, left, right)
 
-        _quick_sort(nums, left, pivot-1)
-        _quick_sort(nums, pivot+1, right)
+        quick_sort(nums, left, pivot-1)
+        quick_sort(nums, pivot+1, right)
