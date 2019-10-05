@@ -23,6 +23,9 @@
 - [删除排序数组中的重复项。要求空间复杂度为O(1)](https://github.com/PuTongjian/DataStructure-Algorithm/blob/master/algo/array/remove_duplicates.py)
 - [插入排序](https://github.com/PuTongjian/DataStructure-Algorithm/blob/master/algo/array/insertion_sort.py)
 - [选择排序](https://github.com/PuTongjian/DataStructure-Algorithm/blob/master/algo/array/select_sort.py)
+- [冒泡排序](https://github.com/PuTongjian/DataStructure-Algorithm/blob/master/algo/array/bubble_sort.py)
+- [快速排序](https://github.com/PuTongjian/DataStructure-Algorithm/blob/master/algo/array/quick_sort.py)
+- [堆排序](https://github.com/PuTongjian/DataStructure-Algorithm/blob/master/algo/array/heap_sort.py)
 ---
 
 ## 链表(Linked list)
