@@ -26,6 +26,7 @@
 - [冒泡排序](https://github.com/PuTongjian/DataStructure-Algorithm/blob/master/algo/array/bubble_sort.py)
 - [快速排序](https://github.com/PuTongjian/DataStructure-Algorithm/blob/master/algo/array/quick_sort.py)
 - [堆排序](https://github.com/PuTongjian/DataStructure-Algorithm/blob/master/algo/array/heap_sort.py)
+- [完全背包问题（动态规划）](https://github.com/PuTongjian/DataStructure-Algorithm/blob/master/algo/array/dynamic_programming.py)
 ---
 
 ## 链表(Linked list)
