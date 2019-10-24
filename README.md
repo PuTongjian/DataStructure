@@ -128,3 +128,10 @@
 - 任意节点的右子树不空，则右子树上所有结点的值均大于它的根结点的值；
 - 任意节点的左、右子树也分别为二叉查找树。
 - 没有键值相等的节点（no duplicate nodes）。
+
+### 相关算法
+- [后序遍历二叉树(递归)](https://github.com/PuTongjian/DataStructure-Algorithm/blob/master/algo/stack/postorder_traversal.py)
+- [前序遍历二叉树(递归)](https://github.com/PuTongjian/DataStructure-Algorithm/blob/master/algo/stack/preorder_traversal.py)
+- [中序遍历二叉树(递归)](https://github.com/PuTongjian/DataStructure-Algorithm/blob/master/algo/stack/inorder_traversal.py)
+- [二叉树的反转]()
+- [判断两个二叉树是否相同]()
